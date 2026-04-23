@@ -24,3 +24,14 @@ Proyek ini merupakan bagian dari tugas analisis data untuk mengeksplorasi pola p
 ├── notebook.ipynb         # Proses analisis data (EDA, Cleaning, Visualisasi)
 ├── requirements.txt       # Daftar pustaka Python yang dibutuhkan
 └── README.md              # Panduan proyek
+
+## Setup Environment - Anaconda
+conda create --name bike-sharing-env python=3.13.5
+conda activate bike-sharing-env
+pip install -r requirements.txt
+
+Run steamlit app
+git clone https://bike-sharing-dicoding-dindaradityaswari.streamlit.app/ 
+cd bike-sharing-dicoding 
+Masuk ke folder dashboard cd dashboard
+streamlit run dashboard.py
